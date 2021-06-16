@@ -1,3 +1,4 @@
+import json
 from typing import Any
 
 import requests
@@ -54,6 +55,7 @@ class HttpRequestParser:
             k, v = kv_colon.split(": ")
             header_map[k] = v
         self._META["headers"] = header_map
+        self._META["url"] = header_map.get("Host") + self._META.get("uri")
 
     def parse_body(self, body):
         pass
@@ -64,7 +66,7 @@ class HttpRequestParser:
 
     @property
     def headers(self):
-        return CaseInsensitiveMapping(self._META.get("headers"))
+        return self._META.get("headers")
 
     @property
     def body(self):
@@ -72,18 +74,18 @@ class HttpRequestParser:
 
     @property
     def cookies(self):
-        return parse_cookie(self._META.get("cookie"))
+        return parse_cookie(self.headers.get("Cookie"))
 
 
 def main():
     req = HttpRequestParser(template)
-    print(req.META)
+    print(json.dumps(dict(req.META)))
     print(req.cookies)
-    print(req.headers)
+    print(json.dumps(dict(req.headers)))
 
 
 if __name__ == '__main__':
     main()
-    url = "http://127.0.0.1:8000/dataFactory/index/"
-    requests.post(url, headers={"Content-Type": "application/x-www-form-urlencoded"},
-                  data="name=test&age=23&realName=patrick")
+    # url = "http://127.0.0.1:8000/dataFactory/index/"
+    # requests.post(url, headers={"Content-Type": "application/x-www-form-urlencoded"},
+    #               data="name=test&age=23&realName=patrick")
