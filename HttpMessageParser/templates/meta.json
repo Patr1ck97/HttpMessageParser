@@ -1,0 +1,20 @@
+{
+  "body": {
+    "test": "123",
+    "name": "[]*&*^%patrick"
+  },
+  "cookies": {},
+  "headers": {
+    "Host": "127.0.0.1:8080",
+    "User-Agent": "python-requests/2.25.1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Content-Type": "application/json",
+    "hhh": "123",
+    "Content-Length": "41",
+    "Connection": "keep-alive"
+  },
+  "method": "POST",
+  "params": null,
+  "url": "http://127.0.0.1:8080/"
+}

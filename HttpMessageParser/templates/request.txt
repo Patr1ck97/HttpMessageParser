@@ -1,0 +1,16 @@
+GET /course/1012/template?isDeveloper=1&navtab%5Binfo%5D=1&navtab%5BlessonList%5D=1&navtab%5Breview%5D=1&navtab%5Boverview%5D=1&navtab%5Bmaterial%5D=1&tips%5BlessonNum%5D=1&tips%5BstudentNum%5D=1&tips%5Bteacher%5D=1&tips%5Bprice%5D=1&tips%5BratingNum%5D=0&tips%5Bfavorite_btn%5D=0&tips%5Bshare_btn%5D=0 HTTP/1.1
+Host: edu.aliyun.com
+Connection: keep-alive
+sec-ch-ua: " Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+Accept: */*
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36
+Origin: https://developer.aliyun.com
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: https://developer.aliyun.com/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en,zh-CN;q=0.9,zh;q=0.8,en-US;q=0.7
+Cookie: _ga=GA1.2.1634010523.1581929931; cna=lMP3Fp9dUnwCAXFb0s7T1aEF; _clientLocale=zh-CN; _clientId=s%3AHJCWY9oZ01FqD75UPIQ1yFOa.9bgFL%2FbV3K%2FotDrTPht4uyxPtAiyv0XthEUfmLgZ%2FQc; iaGreyFlag=1597063317863; CNZZDATA1261859658=1684643826-1585462822-https%253A%252F%252Fwww.baidu.com%252F%7C1609503692; _alicloud_ab_trace_id=4285dcc0-a97c-11eb-b9d1-f33d2d901f67; aliyun_choice=CN; login_aliyunid_pk=1439154003047626; UM_distinctid=179300a206c1e9-037b435be8954c-d7e1739-fa000-179300a206d6fd; login_aliyunid_pks="BG+qgys/uOCN27EWBFngZS/U7upf71mkZzSY0OrxuGWDP0="; aliyun_site=CN; isg=BBcXOsSQO77Nc4BFoad_wD3dpothXOu-nFWE9WlEM-ZNmDfacSx7DtW5-jCGcMM2; tfstk=c1j1BNvqKfc_mYaqbOwEutpFBOtAZBhBKPOFCacUQ-S0LKX1iumyN7mGoX6Bep1..; l=eBSHuqQeO6VxWVX-BOfwourza77OSIRAguPzaNbMiOCP_LfB5KiOW69AX986C3GNh6PXR3o8GXK9BeYBq3K-nxvtGwBLE8Dmn
+
